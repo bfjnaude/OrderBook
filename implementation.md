@@ -13,10 +13,10 @@ The entire XML file is read into memory at the start of the process. This avoids
 
 Each order action in the XML file is checked to determine what order book it belongs to. If no book is found, one is
 created; Otherwise an existing book is manipulated, to add and remove orders. Order books are implemented as class
-`OrderBook`. Each `OrderBook` implements function for to add orders, delete orders, and print the contents of the
+`OrderBook`. Each `OrderBook` implements functions to add orders, delete orders, and print the contents of the
 orderbook.
 
-All orders actions are stored separately from the totals for each price to allow deletion of order actions without
+All order actions are stored separately from the totals for each price, to allow deletion of order actions without
 losing track of total orders per price.
 
 The list of order actions is parsed in a linear manner.

@@ -1,0 +1,9 @@
+To run the orders book program, run the provided Python script, orderBook.py, in your prefered 
+console or Python3 interpreter.
+
+The program takes a single argument to an XML file containing a list of orders as outlined in 
+the Order Messages section of 'Order Exercise Book.docx'.
+
+Example usage:
+
+$ python3 orderBook.py orders.xml
